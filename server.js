@@ -104,7 +104,7 @@ const app = express();
 
 // Configure CORS
 const allowedOrigins = process.env.NODE_ENV === 'production'
-  ? 'https://frontend-3yeue54sa-vaibhav-guptas-projects-afdf5e69.vercel.app'
+  ? 'https://movie-recommendation-frontend-delta.vercel.app/'
   : 'http://localhost:3000';
 
 app.use(cors({
